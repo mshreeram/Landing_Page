@@ -59,10 +59,16 @@ button, .call-to-action {
   font-style: italic;
   display: flex;
   padding: 120px;
+  justify-content: center;
+}
+
+.quote-inside {
+  display: flex;
   flex-direction: column;
 }
 
 .quoter {
+  padding-top: 20px;
   font-style: normal;
   font-weight: bold;
   align-self: flex-end;
